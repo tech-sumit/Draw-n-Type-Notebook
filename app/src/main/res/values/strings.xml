@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Draw n\' Type Notebook</string>
+
+    <string name="stroke_width">Stroke width: %1$d</string>
+    <string name="opacity">Opacity: %1$d</string>
+    <string name="font_size">Font size: %1$d</string>
+
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="functions">Functions</string>
+    <string name="draw_attrs">Draw attributes</string>
+    <string name="background">Background image</string>
+    <string name="draw_tool">Draw tool</string>
+    <string name="draw_mode">Draw mode</string>
+    <string name="save_draw">Save draw</string>
+    <string name="send_draw">Send</string>
+    <string name="draw_option">DrawView option</string>
+    <string name="file_provider_authority" translatable="false">tech.profusion.project.drawntypenotebook.imageprovider</string>
+</resources>

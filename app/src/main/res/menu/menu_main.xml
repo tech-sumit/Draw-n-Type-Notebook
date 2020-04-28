@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_undo"
+        android:enabled="false"
+        android:icon="@drawable/ic_action_content_undo_disabled"
+        android:title="@string/undo"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_redo"
+        android:enabled="false"
+        android:icon="@drawable/ic_action_content_redo_disabled"
+        android:title="@string/redo"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_functions"
+        android:icon="@drawable/ic_action_more_vert"
+        android:title="@string/functions"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_draw_attrs"
+                android:icon="@drawable/ic_action_palette"
+                android:title="@string/draw_attrs" />
+            <item
+                android:id="@+id/action_draw_tool"
+                android:icon="@drawable/ic_action_brush"
+                android:title="@string/draw_tool" />
+            <item
+                android:id="@+id/action_draw_mode"
+                android:icon="@drawable/ic_action_edit"
+                android:title="@string/draw_mode" />
+            <item
+                android:id="@+id/action_draw_save"
+                android:icon="@drawable/ic_action_save"
+                android:title="@string/save_draw" />
+        </menu>
+    </item>
+</menu>
